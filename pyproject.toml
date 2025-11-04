@@ -1,0 +1,10 @@
+[project]
+name = "mcp-server-python"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "mcp[cli]>=1.13.1",
+    "pyopenssl>=25.1.0",
+]
