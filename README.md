@@ -2,7 +2,7 @@
 
 ## MCP Server Configuration for Claude Desktop
 
-### Locally
+### Locally (Mac)
 ```
 {
     "mcpServers": {
@@ -14,6 +14,21 @@
           }
         }
     }
+}
+```
+
+(Windows)
+```
+{
+	"mcpServers": {
+                "weather": {
+                        "command": "uv",
+                        "args": ["--directory", "C:\\Users\\sid\\Projects\\dt1-mcp-server\\", "run", "service.py"],
+                        "env": {
+                                "SSL_VERIFY": "false"
+                        }
+                }
+        }
 }
 ```
 
